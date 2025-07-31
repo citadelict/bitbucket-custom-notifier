@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-TEAMS_WEBHOOK_URL = 'https://hayrok.webhook.office.com/webhookb2/5b837715-268f-410f-9c0e-115147c6bd1b@bf49501a-9beb-44bb-bf19-61615d1faa6b/IncomingWebhook/62102e0269fc48a8b18bcbefdbb4d68e/97cc2926-2cee-442c-a420-15cc114918ca/V2dg9zcqNi0SFuOAxxGyJ3_hPNR_z7t-gwwDvv8ttij5Y1'
+TEAMS_WEBHOOK_URL = 'https://outlook.office.com/webhook/YOUR_TEAMS_WEBHOOK_URL_HERE'
 
 @app.route('/bitbucket-webhook', methods=['POST'])
 def bitbucket_webhook():
